@@ -11,7 +11,8 @@ from random import randint
 틀린단어입력 = []
 number_list = []
 new_number = 0
-
+print("made with python")
+print()
 영어개수 = int(input("몇 개의 단어를 외울 것인가요? : "))
 넘버 = 1
 대답 = 0
@@ -130,17 +131,7 @@ def repeat():
         line()
 
         time.sleep(5)
-
-
-
-
-
-
-
-
-
-
-
+        
         blank(100)
         print("이어서 단어 외우기를 시작 합니다.")
         blank(1)
